@@ -1,8 +1,8 @@
 'use strict';
 
-import localVarRequest = require("request");
-import http = require("http");
-import Promise = require("bluebird");
+import localVarRequest from "request";
+import http from "http";
+import Promise from "bluebird";
 
 import { Authentication } from '../auth/Authentication';
 import { VoidAuth } from '../auth/VoidAuth';

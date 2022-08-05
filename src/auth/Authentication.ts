@@ -1,11 +1,9 @@
 'use strict';
-import localVarRequest = require("request");
+import localVarRequest from "request";
 
-interface Authentication {
+export interface Authentication {
     /**
     * Apply authentication settings to header and query params.
     */
     applyToRequest(requestOptions: localVarRequest.Options): void;
 }
-
-export { Authentication }

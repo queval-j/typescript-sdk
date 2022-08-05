@@ -1,6 +1,6 @@
 'use strict';
-import localVarRequest = require("request");
-import CryptoJS = require("crypto-js");
+import localVarRequest from "request";
+import CryptoJS from "crypto-js";
 import { Authentication } from './Authentication';
 
 class VoidAuth implements Authentication {

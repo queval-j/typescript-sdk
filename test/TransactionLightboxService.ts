@@ -1,7 +1,7 @@
 'use strict';
 import { expect } from 'chai';
 import { PostFinanceCheckout } from '../index';
-import http = require("http");
+import http from "http";
 
 // config
 let config: { space_id: number, user_id: number, api_secret: string } = {
